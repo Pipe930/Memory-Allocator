@@ -3,7 +3,11 @@
 ## Descripción
 Este proyecto implementa un *memory allocator* personalizado en C++ para gestionar la asignación y liberación de memoria de manera eficiente. Es útil en aplicaciones donde se requiere un control más fino sobre el uso de la memoria que el proporcionado por los operadores estándar `new` y `delete`.
 
+Una imagen representativa de la estructura de memoria que asigna a un proceso el sistema operativo:
 ![Diagrama de la estructura de la memoria que asigna al proceso el sistema operativo](assets/Diagrama-asignacion-memoria-sistema-operativo.png)
+
+Imagen de representación de la estrucura de datos utilizada para los bloques de memoria:
+![Diagrama de la estructura de datos utilizada](assets/Diagrama-estructura-datos-bloques-memoria.png)
 
 ## Características
 - Gestión personalizada de bloques de memoria.
@@ -64,5 +68,5 @@ g++ tests/tests.cpp -o bin/MemoryAllocatorTests
 
 ## Links de información
 
-**[Writing a memory allocator by dmitry soshnikov](http://dmitrysoshnikov.com/compilers/writing-a-memory-allocator/)**
+**[Writing a memory allocator by dmitry soshnikov](http://dmitrysoshnikov.com/compilers/writing-a-memory-allocator/)**<br>
 **[Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory)**
